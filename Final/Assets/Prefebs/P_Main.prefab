@@ -135,8 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetText: {fileID: 3284502684249677968}
-  hoverText: "\uAC01 \uCE90\uB9AD\uD130\uC758 \uAE4A\uC774 \uC788\uB294 \uC2A4\uD1A0\uB9AC\uB97C
-    \uD0D0\uD5D8\uD558\uBA70 \uC228\uACA8\uC9C4 \uC774\uC57C\uAE30\uB97C \uD655\uC778\uD558\uC138\uC694."
+  hoverText: Explore each character's deep story and uncover hidden narratives.
 --- !u!114 &5286189482017583988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,8 +285,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetText: {fileID: 3284502684249677968}
-  hoverText: "\uC804 \uC138\uACC4 \uD50C\uB808\uC774\uC5B4\uB4E4\uACFC \uC2E4\uC2DC\uAC04\uC73C\uB85C
-    \uB300\uC804\uD558\uBA70 \uCD5C\uAC15\uC758 \uC790\uB9AC\uB97C \uB178\uB824\uBCF4\uC138\uC694."
+  hoverText: Compete against players worldwide in real-time battles and claim the
+    top spot.
 --- !u!114 &1976327530415795893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,6 +447,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2742086318547216845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,8 +484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetText: {fileID: 3284502684249677968}
-  hoverText: "\uAC8C\uC784\uC744 \uC885\uB8CC\uD558\uACE0 \uBA54\uC778 \uD654\uBA74\uC73C\uB85C
-    \uB3CC\uC544\uAC11\uB2C8\uB2E4."
+  hoverText: Exit the game and return to the main screen.
 --- !u!114 &8210287151652037543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,7 +564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Text test
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6bae9f08b83c4574b86a07f549be27cb, type: 2}
   m_sharedMaterial: {fileID: 6708334412923951893, guid: 6bae9f08b83c4574b86a07f549be27cb, type: 2}
@@ -798,6 +820,7 @@ RectTransform:
   - {fileID: 5305615528504803724}
   - {fileID: 5459375024588971099}
   - {fileID: 8811058755199880649}
+  - {fileID: 4556263980731235572}
   - {fileID: 5012562326883793739}
   - {fileID: 5078629592652255883}
   m_Father: {fileID: 0}
@@ -968,12 +991,60 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3028925970663758953}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -991,10 +1062,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a5cdbd9e5272cf478532a119d74d737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetText: {fileID: 0}
-  hoverText: "\uD074\uB798\uC2DD\uD55C \uC544\uCF00\uC774\uB4DC \uBAA8\uB4DC\uC5D0\uC11C
-    \uB2E4\uC591\uD55C \uCE90\uB9AD\uD130\uC640 AI \uC0C1\uB300\uB97C \uCC28\uB840\uB85C
-    \uBB3C\uB9AC\uCE58\uC138\uC694."
+  targetText: {fileID: 3284502684249677968}
+  hoverText: Battle through a series of AI opponents in classic arcade mode.
 --- !u!114 &2272220161123493153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,8 +1213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetText: {fileID: 3284502684249677968}
-  hoverText: "\uCE5C\uAD6C\uC640 \uD568\uAED8 \uB85C\uCEEC 2\uC778 \uB300\uC804\uC744
-    \uC990\uAE30\uBA70 \uC2E4\uB825\uC744 \uACA8\uB904\uBCF4\uC138\uC694."
+  hoverText: Challenge a friend in local 2-player versus mode.
 --- !u!114 &312411040229793794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1225,10 +1293,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Text test Yeah
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6bae9f08b83c4574b86a07f549be27cb, type: 2}
-  m_sharedMaterial: {fileID: 6708334412923951893, guid: 6bae9f08b83c4574b86a07f549be27cb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4e6f41df35dc9cf4ab52dd89ac830fa5, type: 2}
+  m_sharedMaterial: {fileID: 3674935030951212656, guid: 4e6f41df35dc9cf4ab52dd89ac830fa5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1294,3 +1362,169 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1001 &4842406235285341598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5679620706418594009}
+    m_Modifications:
+    - target: {fileID: 8937594824995223912, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223912, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223912, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_Color.g
+      value: 0.77601117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223912, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4575472
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223912, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 49.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 291
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 215
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223915, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223915, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223915, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223915, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223915, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223915, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223915, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937594824995223917, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+      propertyPath: m_Name
+      value: Btn_Setting
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+--- !u!224 &4556263980731235572 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8937594824995223914, guid: 4a7b5335706361c47ab21a2ca4e13fcb, type: 3}
+  m_PrefabInstance: {fileID: 4842406235285341598}
+  m_PrefabAsset: {fileID: 0}
